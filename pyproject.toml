@@ -1,8 +1,8 @@
 [project]
-name = "modushell"
-version = "0.5.0"
+name = "ModuShell"
+version = "1.0.0"
 description = "ModuShell is a package that you can use to customize any outputs to the console using simple calls within format strings. Requires a modern terminal that can handle ANSI escape sequences."
-requires-python = ">=3.8"
+requires-python = ">=3.7"
 readme = "README"
 license = {text = "MIT"}
 authors = [
