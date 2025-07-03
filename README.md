@@ -36,7 +36,12 @@ Use classic font styling:
 
 ## 🔗 Installation 🔗
 
-_Currently manual install only, will be uploaded to PyPI soon, along with references._
+Install with:
+
+  pip install ModuShell
+
+Or you can visit the [PyPI website](https://pypi.org/project/ModuShell/) and install the wheel there!
+Or, even more alternatively, visit the releases in the GitHub!
 
 ---
 
