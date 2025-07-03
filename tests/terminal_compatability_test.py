@@ -36,35 +36,50 @@ combo2 = ModuShell.Big2(2)
 combo3 = ModuShell.Big3(1)
 combo4 = ModuShell.Big3(2)
 
+redcolor_rgb = (255,0,0)
+bluecolor_rgb = (49,168,247)
+whitecolor_rgb = (255,255,255)
+blackcolor_rgb = (0,0,0)
+
+redcolor_hsl = (204,0.93,0.58)
+bluecolor_hsl = (0,0.99,0.5)
+whitecolor_hsl = (0,0.01,0.99)
+blackcolor_hsl = (0,0.01,0.01)
+
+redcolor_hex = "#ff0000"
+bluecolor_hex = "#31a8f7"
+whitecolor_hex = "#ffffff"
+blackcolor_hex = "#000000"
+
 # Color
 
 # RGB
-color1 = ModuShell.Colorize.FONT((49, 168, 247))
-color2 = ModuShell.Colorize.HIGH((255, 0, 0))
+color1 = ModuShell.Colorize.FONT(bluecolor_rgb)
+color2 = ModuShell.Colorize.HIGH(redcolor_rgb)
 
 # HSL
-color3 = ModuShell.Colorize.FONT((204, .93, .58))
-color4 = ModuShell.Colorize.HIGH((0, .99, .5))
+color3 = ModuShell.Colorize.FONT(bluecolor_hsl)
+color4 = ModuShell.Colorize.HIGH(redcolor_hsl)
 
 # Hex
-color5 = ModuShell.Colorize.FONT("#31a8f7")
-color6 = ModuShell.Colorize.HIGH("#ff0000")
+color5 = ModuShell.Colorize.FONT(bluecolor_hex)
+color6 = ModuShell.Colorize.HIGH(redcolor_hex)
 
 # B & W
 # RGB
-mono1 = ModuShell.Colorize.HIGH((255, 255, 255))
-mono2 = ModuShell.Colorize.FONT((255, 255, 255))
-mono3 = ModuShell.Colorize.FONT((0, 0, 0))
+mono1 = ModuShell.Colorize.HIGH(whitecolor_rgb)
+mono2 = ModuShell.Colorize.FONT(whitecolor_rgb)
+mono3 = ModuShell.Colorize.FONT(blackcolor_rgb)
 
 # HSL
-mono4 = ModuShell.Colorize.HIGH((0, .01, .99))
-mono5 = ModuShell.Colorize.FONT((0, .01, .99))
-mono6 = ModuShell.Colorize.FONT((0, .01, .01))
+mono4 = ModuShell.Colorize.HIGH(whitecolor_hsl)
+mono5 = ModuShell.Colorize.FONT(whitecolor_hsl)
+mono6 = ModuShell.Colorize.FONT(blackcolor_hsl)
 
 # Hex
-mono7 = ModuShell.Colorize.HIGH("#FFFFFF")
-mono8 = ModuShell.Colorize.FONT("#FFFFFF")
-mono9 = ModuShell.Colorize.FONT("#000000")
+mono7 = ModuShell.Colorize.HIGH(whitecolor_hex)
+mono8 = ModuShell.Colorize.FONT(whitecolor_hex)
+mono9 = ModuShell.Colorize.FONT(blackcolor_hex)
 
 
 # Colloquial Color
